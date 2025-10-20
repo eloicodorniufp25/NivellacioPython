@@ -99,6 +99,8 @@ def quedan_barcos(tablero):
             if celda == 1:
                 return True
     return False
+
+
 # </editor-fold>
 
 
@@ -134,7 +136,7 @@ def jugar():
                 turno_jugador = False
             else:
                 print("Coordenadas fuera del tablero.")
-                continue  #VOLVER A PEDIR COORDENADAS SIN CANVIAR DE TURNO
+                continue  # VOLVER A PEDIR COORDENADAS SIN CANVIAR DE TURNO
         else:
             print("\n---Turno del ordenador---")
             fila, col = rnd.randint(0, 5), rnd.randint(0, 5)

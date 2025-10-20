@@ -6,11 +6,13 @@ def getPalabra(lista):
     palabra = random.choice(lista)
     return palabra
 
+
 def transformaPalabra(palabra):
     estado = []
     for letra in palabra:
         estado.append('_')
     return estado
+
 
 def reemplazarLetra(palabraSecreta, estado, letra):
     for n in range(0, len(palabraSecreta)):
@@ -18,9 +20,11 @@ def reemplazarLetra(palabraSecreta, estado, letra):
             estado[n] = letra
     return estado
 
+
 def compruebaEstado(estado):
     if '_' not in estado:
         return True
+
 
 def compruebaLetra(letra, palabraSecreta, estado, numIntentos):
     if letra in palabraSecreta:
@@ -32,31 +36,37 @@ def compruebaLetra(letra, palabraSecreta, estado, numIntentos):
 
     return estado, numIntentos
 
+
 def compruebaIntentos(numIntentos):
     if numIntentos != 0:
         print(f'Te quedan {numIntentos} intentos')
     else:
         print('Game Over! No te quedan intentos')
+
+
 # </editor-fold>
 
+def juego():
+    listaPalabras = ['aurora', 'boreal', 'lobo', 'luna', 'jabali', 'cabra', 'queso']
+    aciertoFinal = False
+    numIntentos = 6
+    # opcion 2
+    palabraSecreta = getPalabra(listaPalabras)
+    estado = transformaPalabra(palabraSecreta)
 
-listaPalabras = ['aurora', 'boreal', 'lobo', 'luna', 'jabali', 'cabra', 'queso']
-aciertoFinal = False
-numIntentos = 6
-# opcion 2
-palabraSecreta = getPalabra(listaPalabras)
-estado = transformaPalabra(palabraSecreta)
-# Truco para printar lista sin corchetes
+    while aciertoFinal == False and numIntentos > 0:
+        print(" ".join(estado))
+        # op2
+        # print(*estado)
+        letra = input('Introduzca una letra: ')
+        estado, numIntentos = compruebaLetra(letra, palabraSecreta, estado, numIntentos)
 
-while aciertoFinal == False and numIntentos > 0:
-    print(" ".join(estado))
-    # op2
-    # print(*estado)
-    letra = input('Introduzca una letra: ')
-    estado, numIntentos = compruebaLetra(letra, palabraSecreta, estado, numIntentos)
+        if compruebaEstado(estado):
+            print('Has adivinado la palabra')
+            aciertoFinal = True
+        else:
+            compruebaIntentos(numIntentos)
 
-    if compruebaEstado(estado):
-        print('Has adivinado la palabra')
-        aciertoFinal = True
-    else:
-        compruebaIntentos(numIntentos)
+
+if __name__ == '__main__':
+    juego()

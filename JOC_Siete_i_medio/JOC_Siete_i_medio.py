@@ -1,4 +1,4 @@
-from CARD import Card
+from .CARD import Card
 import random
 
 
@@ -26,10 +26,10 @@ def comprovarGanador(cartas):
 
 
 def jugar():
-    #Crear baraja
+    # Crear baraja
     baraja = crearBaraja()
 
-    #Cartas de la banca y jugador
+    # Cartas de la banca y jugador
     cartas_banca = []
     robarCarta(baraja, cartas_banca)
     print("--------COGIENDO CARTAS INCIALES---------------")
@@ -40,7 +40,7 @@ def jugar():
     print(f"El jugador tiene: {cartas_jugador[0]}")
     print("-----------------------------------------------")
 
-    #Turno del jugador
+    # Turno del jugador
     while True:
         print(f"Puntos jugador: {calcularPuntos(cartas_jugador)}")
         if comprovarGanador(cartas_jugador):
@@ -59,7 +59,7 @@ def jugar():
         else:
             break
 
-    #Turno de la banca
+    # Turno de la banca
     while calcularPuntos(cartas_banca) < 5.5:
         robarCarta(baraja, cartas_banca)
         print(f"La banca roba: {cartas_banca[-1]}")

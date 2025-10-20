@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c31dafc-0bb2-452c-ae71-65928e951cdd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AHORCADO/ahorcado.py" beforeDir="false" afterPath="$PROJECT_DIR$/AHORCADO/ahorcado.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FLOTA/HUNDIR_FLOTA.py" beforeDir="false" afterPath="$PROJECT_DIR$/FLOTA/HUNDIR_FLOTA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JOC_7.5/CARD.PY" beforeDir="false" afterPath="$PROJECT_DIR$/JOC_Siete_i_medio/CARD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JOC_7.5/JOC_7-5.PY" beforeDir="false" afterPath="$PROJECT_DIR$/JOC_Siete_i_medio/JOC_Siete_i_medio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PEDRA_PAPER_TISORES/pedra_paper_tisores.py" beforeDir="false" afterPath="$PROJECT_DIR$/PEDRA_PAPER_TISORES/pedra_paper_tisores.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eloicodorniufp25&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eloicodorniufp25/NivellacioPython.git&quot;,
+    &quot;accountId&quot;: &quot;7cf14dfa-c51b-471e-89c8-5ddca744948b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="34192cgzoM1dMIp1GhAaKXALxMP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.HUNDIR_FLOTA.executor": "Run",
+    "Python.ahorcado.executor": "Run",
+    "Python.menu_juegos.executor": "Run",
+    "Python.pedra_paper_tisores.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Usuaris/ecodorniu/Documents/PYTHON_CE/PYTHON_BASIC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.mcpserver.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Usuaris\ecodorniu\Documents\PYTHON_CE\PYTHON_BASIC" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c31dafc-0bb2-452c-ae71-65928e951cdd" name="Changes" comment="" />
+      <created>1760370005476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760370005476</updated>
+      <workItem from="1760370007188" duration="764000" />
+      <workItem from="1760370790376" duration="3678000" />
+      <workItem from="1760464582914" duration="426000" />
+      <workItem from="1760465038075" duration="1961000" />
+      <workItem from="1760628197379" duration="814000" />
+      <workItem from="1760635935529" duration="2599000" />
+      <workItem from="1760638561551" duration="157000" />
+      <workItem from="1760973716450" duration="2594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PYTHON_BASIC$menu_juegos.coverage" NAME="menu_juegos Coverage Results" MODIFIED="1760976092003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PYTHON_BASIC$ahorcado.coverage" NAME="ahorcado Coverage Results" MODIFIED="1760637963431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AHORCADO" />
+    <SUITE FILE_PATH="coverage/PYTHON_BASIC$HUNDIR_FLOTA.coverage" NAME="HUNDIR_FLOTA Coverage Results" MODIFIED="1760637898409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FLOTA" />
+    <SUITE FILE_PATH="coverage/PYTHON_BASIC$pedra_paper_tisores.coverage" NAME="pedra_paper_tisores Coverage Results" MODIFIED="1760638282145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PEDRA_PAPER_TISORES" />
+  </component>
+</project>

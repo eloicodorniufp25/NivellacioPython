@@ -51,16 +51,18 @@ def comparaResultat(opUser, opRival, puntUser, puntRival):
     return puntUser, puntRival
 # </editor-fold>
 
+def juego():
+    nivell = escullNivell()
+    puntUser = 0
+    puntRival = 0
+    while puntUser < nivell and puntRival < nivell:
+        opUser = int(input('Escull la teva elecció: \n0-Piedra \n1-Papel \n2-Tisores \n'))
+        opRival = random.randint(0, 3)
+        puntUser, puntRival = comparaResultat(opUser, opRival, puntUser, puntRival)
 
-nivell = escullNivell()
-puntUser = 0
-puntRival = 0
-while puntUser < nivell and puntRival < nivell:
-    opUser = int(input('Escull la teva elecció: \n0-Piedra \n1-Papel \n2-Tisores \n'))
-    opRival = random.randint(0, 3)
-    puntUser, puntRival = comparaResultat(opUser, opRival, puntUser, puntRival)
+    if puntUser == nivell:
+        print('Joc acabat, Has guanyat!')
+    else:
+        print('Joc acabat, Has perdut!')
 
-if puntUser == nivell:
-    print('Joc acabat, Has guanyat!')
-else:
-    print('Joc acabat, Has perdut!')
+
