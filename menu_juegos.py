@@ -6,11 +6,12 @@ from JOC_Siete_i_medio import JOC_Siete_i_medio
 if __name__ == "__main__":
     op = -1
     while op < 1 or op > 4:
-        print("-------SELECCIONA EL JUEGO QUE QUIERES JUGAR-------")
-        print("1. Ahorcado")
-        print("2. Hundir la flota")
-        print("3. Pedra Paper Tisores")
-        print("4. 7,5")
+        print("+------SELECCIONA EL JUEGO QUE QUIERES JUGAR-------+")
+        print("| 1. Ahorcado                                      |")
+        print("| 2. Hundir la flota                               |")
+        print("| 3. Pedra Paper Tisores                           |")
+        print("| 4. 7,5                                           |")
+        print("+--------------------------------------------------+")
         op = int(input("Selecciona un juego para iniciar: "))
 
     if op == 1:

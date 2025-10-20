@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c31dafc-0bb2-452c-ae71-65928e951cdd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AHORCADO/ahorcado.py" beforeDir="false" afterPath="$PROJECT_DIR$/AHORCADO/ahorcado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FLOTA/HUNDIR_FLOTA.py" beforeDir="false" afterPath="$PROJECT_DIR$/FLOTA/HUNDIR_FLOTA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JOC_7.5/CARD.PY" beforeDir="false" afterPath="$PROJECT_DIR$/JOC_Siete_i_medio/CARD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JOC_7.5/JOC_7-5.PY" beforeDir="false" afterPath="$PROJECT_DIR$/JOC_Siete_i_medio/JOC_Siete_i_medio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PEDRA_PAPER_TISORES/pedra_paper_tisores.py" beforeDir="false" afterPath="$PROJECT_DIR$/PEDRA_PAPER_TISORES/pedra_paper_tisores.py" afterDir="false" />
-    </list>
+    <list default="true" id="7c31dafc-0bb2-452c-ae71-65928e951cdd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +89,7 @@
       <workItem from="1760628197379" duration="814000" />
       <workItem from="1760635935529" duration="2599000" />
       <workItem from="1760638561551" duration="157000" />
-      <workItem from="1760973716450" duration="2594000" />
+      <workItem from="1760973716450" duration="3026000" />
     </task>
     <servers />
   </component>
