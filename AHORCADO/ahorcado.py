@@ -68,5 +68,5 @@ def juego():
             compruebaIntentos(numIntentos)
 
 
-if __name__ == '__main__':
-    juego()
+if __name__ == "__main__":
+    print("----UTILIZA EL MENÚ----")

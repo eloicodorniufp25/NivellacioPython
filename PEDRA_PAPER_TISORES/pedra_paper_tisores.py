@@ -4,14 +4,17 @@ import random
 # <editor-fold desc="FUNCIONES">
 def escullNivell():
     opcioValida = False
-    while opcioValida != True:
-        nivell = int(input('Introdueix nivell:\n Baix (1vida) \n Mig (2vides) \n Alt (3vides)\n'))
-        if nivell >= 1 and nivell <= 3:
-            opcioValida = True
-        else:
-            print('Opcio incorrecta')
+    while not opcioValida:
+        try:
+            nivell = int(input('Introdueix nivell:\n Baix (1 vida) \n Mig (2 vides) \n Alt (3 vides)\n'))
+            if 1 <= nivell <= 3:
+                opcioValida = True
+            else:
+                print('Opció incorrecta. Tria 1, 2 o 3.')
+        except ValueError:
+            print('Error: has de introduir un número enter.')
+    return nivell
 
-        return nivell
 
 def comparaResultat(opUser, opRival, puntUser, puntRival):
     # User Pedra
@@ -56,13 +59,17 @@ def juego():
     puntUser = 0
     puntRival = 0
     while puntUser < nivell and puntRival < nivell:
-        opUser = int(input('Escull la teva elecció: \n0-Piedra \n1-Papel \n2-Tisores \n'))
-        opRival = random.randint(0, 3)
-        puntUser, puntRival = comparaResultat(opUser, opRival, puntUser, puntRival)
-
+        try:
+            opUser = int(input('Escull la teva elecció: \n0-Piedra \n1-Papel \n2-Tisores \n'))
+            opRival = random.randint(0, 2)
+            puntUser, puntRival = comparaResultat(opUser, opRival, puntUser, puntRival)
+        except ValueError:
+            print('Tiene que ser un numero')
     if puntUser == nivell:
         print('Joc acabat, Has guanyat!')
     else:
         print('Joc acabat, Has perdut!')
 
 
+if __name__ == "__main__":
+    print("----UTILIZA EL MENÚ----")
